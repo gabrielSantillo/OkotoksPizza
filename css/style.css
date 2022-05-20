@@ -1,0 +1,18 @@
+html {
+    background-color: #cfdce7;
+  }
+
+h1, h2 {
+    color: brown;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px rgb(249, 215, 215);
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    line-height: 1.25;
+    letter-spacing: 1px;
+}
