@@ -1,5 +1,5 @@
 html {
-    background-color: #cfdce7;
+    background-color: #e9ecf2;
   }
 
 h1, h2, h3 {
@@ -24,6 +24,6 @@ button:hover {
 }
 
 footer {
-    background-color: rgb(249, 215, 215);
+    background-color: #d1d4db;
     margin: 0;
 }
