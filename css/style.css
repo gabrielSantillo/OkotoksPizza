@@ -16,8 +16,21 @@ h2, h3 {
     color: #a52a6c;
     font-family: "Open Sans", sans-serif;
     margin: 0;
-    padding: 20px 0;
+    padding: 10px;
     text-shadow: 3px 3px 1px rgb(249, 215, 215);
+}
+
+.h2_title {
+    text-align: center;
+}
+
+.pizza_section {
+    display: flex;
+    
+}
+
+.image_pizza {
+    padding: 10px;
 }
 
 section #first_p {
@@ -47,6 +60,14 @@ a:link {
 a:visited {
     font-weight: bold;
     color: purple;
+}
+
+button {
+    background-color: rgb(249, 215, 215);
+    color: #a52a6c;
+    border-radius: 5px;
+    border: 0ch;
+    font-weight: 700;
 }
 
 button:hover {
