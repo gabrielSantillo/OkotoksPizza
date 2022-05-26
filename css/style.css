@@ -14,7 +14,7 @@ div .paragraph {
     box-shadow: 2px 2px 10px black;
 }
 
-.paragraph {
+.paragraph, .li {
     font-family: monospace;
 }
 
@@ -57,7 +57,6 @@ footer {
 }
 
 /*
-#footer-section+footer {
-    color: aqua;
-} 
-*/
+#footer + section {
+    background-color: aqua;
+} */
