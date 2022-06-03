@@ -3,7 +3,7 @@ img {
 }
 
 html {
-    background-color: #e9ecf2;
+    background-color: #ffffff;
   }
 
   header {
@@ -162,4 +162,22 @@ footer {
     align-items: center;
     justify-items: center;
     border-radius: 10px;
+}
+
+#link_footer_div {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+#footer_author {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-items: center;
+    background-color: #9f4d79;
+    color: rgb(254, 227, 227);
+    border-radius: 5px;
 }
