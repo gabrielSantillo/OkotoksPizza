@@ -10,10 +10,36 @@ html {
       background-color: #f9f3f6;
   }
 
-h1 {
+#header_container {
     box-shadow: 2px 2px 5px #a52a6c;
     color: #a52a6c;
     text-align: center;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-items: start;
+}
+
+#header_h1 {
+    padding-left: 10vw;
+}
+
+#href_home {
+    justify-self: end;
+    padding-right: 10vw;
+}
+
+#h2_grid {
+    display: grid;
+    grid-auto-flow: row;
+    justify-items: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#first_img {
+    width: 90%;
+    height: 400px;
 }
 
 h2, h3 {
@@ -71,6 +97,7 @@ button {
     background-color: #a52a6c;
     border-radius: 5px;
     font-weight: 700;
+    border: none;
 }
 
 .order_button {
@@ -87,6 +114,7 @@ button:hover {
     background-color: #9f4d79;
     border-radius: 5px;
     color: rgb(249, 215, 215);
+    cursor: pointer;
 }
 
 button:active {
@@ -121,7 +149,17 @@ footer {
     column-gap: 20px;
     box-shadow: 2px 2px 5px rgb(250, 142, 142);
     background-color: rgb(254, 227, 227);
-    padding: 10px;
+    padding: 25px;
     border-radius: 5px;
     margin: 40px 10px 10px;
+}
+
+.menu_article {
+    display: grid;
+    grid-auto-flow: row;
+    background-color: #ffffff;
+    padding: 5px;
+    align-items: center;
+    justify-items: center;
+    border-radius: 10px;
 }
