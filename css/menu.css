@@ -67,15 +67,24 @@ a:visited {
 }
 
 button {
-    background-color: rgb(249, 215, 215);
-    color: #a52a6c;
+    color: rgb(249, 215, 215);
+    background-color: #a52a6c;
     border-radius: 5px;
-    border: 0ch;
     font-weight: 700;
 }
 
-button:hover {
+.order_button {
+    color: rgb(249, 215, 215);
     background-color: #a52a6c;
+    border-radius: 5px;
+    font-weight: 700;
+    width: 50%;
+    height: 30px;
+    border: none;
+}
+
+button:hover {
+    background-color: #9f4d79;
     border-radius: 5px;
     color: rgb(249, 215, 215);
 }
